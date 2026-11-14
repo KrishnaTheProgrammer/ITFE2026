@@ -1,0 +1,29 @@
+<div id="top" class="min-h-screen flex flex-col">
+  <app-navbar></app-navbar>
+
+  <main class="flex-1">
+    <app-hero></app-hero>
+
+    <!-- Editorial Intro Banner -->
+    <section class="py-16 sm:py-20 border-b border-white/10 bg-[#0e1015]">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+        <span class="text-xs font-semibold uppercase tracking-[0.2em] text-amber-400">
+          The Premise
+        </span>
+        <h2 class="mt-3 font-serif-editorial text-3xl sm:text-5xl font-bold text-stone-100">
+          One Country. Many Perspectives.
+        </h2>
+        <p class="mt-5 text-base sm:text-lg text-stone-300 leading-relaxed">
+          India is more than stereotypes, headlines and assumptions. Through conversations with people from different countries, this series discovers their thoughts, experiences and curiosity about India.
+        </p>
+      </div>
+    </section>
+
+    <app-episodes-section></app-episodes-section>
+    <app-cultures-section></app-cultures-section>
+  </main>
+
+  <app-mission-footer></app-mission-footer>
+  <app-auth-modal></app-auth-modal>
+  <app-episode-modal></app-episode-modal>
+</div>
